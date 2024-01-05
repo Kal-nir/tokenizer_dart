@@ -82,10 +82,10 @@ List<Token> extract(String string, {bool preprocess = true, bool usingFile = fal
     String char = String.fromCharCode(rune);
     
     if (char == "\n") {
-      currentRow = 0;
       rawTokens.add(
         Token("eol", TokenType.eol, currentRow, currentCol)
       );
+      currentRow = 0;
       currentCol++;
       continue;
     }

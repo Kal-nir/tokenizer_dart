@@ -1,5 +1,5 @@
-import 'package:test/test.dart';
-import '../bin/tokenizer_dart.dart';
+// import 'package:test/test.dart';
+// import '../bin/tokenizer_dart.dart';
 
 void main() {
   // test('calculate', () {
@@ -7,6 +7,6 @@ void main() {
   // });
 }
 
-Token testToken(String value) {
-  return Token(value, TokenType.empty, 0, 0);
-}
+// Token testToken(String value) {
+//   return Token(value, TokenType.empty, 0, 0);
+// }
